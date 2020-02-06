@@ -1,0 +1,8 @@
+.LinkB:hover {
+    background: rgba(0, 0, 0, 0.066);
+}
+
+.LinkB {
+    padding: 6px;
+    border-radius: 10%;
+}
