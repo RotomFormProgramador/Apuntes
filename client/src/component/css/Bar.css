@@ -2,8 +2,12 @@
     background: rgb(46, 219, 202);
 }
 
-.LinkB:hover {
+.LinkB {
     background: rgba(0, 0, 0, 0.066);
+}  
+
+.LinkB:hover { 
+    background: rgba(0, 0, 0, 0.096);
 }
 
 .LinkB {

@@ -17,11 +17,11 @@ const useStyles = makeStyles(theme => ({
         flexGrow: 1,
     },
 }));
-
+ 
 export default function Bar() {
     const classes = useStyles()
     return (
-        <AppBar  position="static" style={{ background: 'rgb(49, 169, 216)'}}>
+        <AppBar  position="sticky" style={{ background: 'rgb(49, 169, 216)'}}>
             <Toolbar>
                 <IconButton
                     edge="start"
@@ -30,19 +30,19 @@ export default function Bar() {
                     aria-label="menu"
                 >
 
-                <Link component={RouterLink} color="inherit" to="/">
+                <Link className="butl" component={RouterLink}  color="inherit" to="/">
                    <HomeIcon  />
                 </Link>
 
                     
                 </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                <Link component={RouterLink} underline="none" className="LinkB" color="inherit" to="/">
+                    <Typography    variant="h6" className={classes.title}>
+                <Link component={RouterLink} underline="none" className="LinkB butl" color="inherit" to="/">
                    Guias Faciles
                 </Link>
 
-                <Link component={RouterLink} underline="none" className="LinkB" color="inherit" to="/">
-                   React
+                <Link style={{marginLeft: "10px"}} component={RouterLink} underline="none" className="LinkB butl" color="inherit" to="/">
+                   ReactJS
                 </Link>
 
                    </Typography>
