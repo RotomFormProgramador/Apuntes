@@ -1,0 +1,27 @@
+.home {
+    flex-grow:1;
+    display: flex;
+}
+
+.cont {
+    width:50%;
+}
+
+.cont-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-2 {
+    background-color: indigo;
+}
+
+.info {
+    padding:15px;
+    margin-top: 5%;
+    height:70%;
+    width:70%;
+    background-color: rgb(109, 193, 245);
+    color: black;
+}
+
