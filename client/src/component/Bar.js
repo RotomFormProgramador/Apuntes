@@ -41,7 +41,7 @@ export default function Bar() {
                    Guias Faciles
                 </Link>
 
-                <Link style={{marginLeft: "10px"}} component={RouterLink} underline="none" className="LinkB butl" color="inherit" to="/">
+                <Link style={{marginLeft: "10px"}} component={RouterLink} underline="none" className="LinkB butl" color="inherit" to="/ReactJS">
                    ReactJS
                 </Link>
 

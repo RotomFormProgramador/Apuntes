@@ -1,0 +1,7 @@
+.indice {
+    text-decoration: none;
+}
+
+.indice:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+}
