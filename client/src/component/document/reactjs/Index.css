@@ -1,0 +1,8 @@
+.Introduccion {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.cont-1{
+    width: 80%;
+}
