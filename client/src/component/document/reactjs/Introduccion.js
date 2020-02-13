@@ -5,7 +5,7 @@ import   "./Index.css"
 
 export default function Introduccion (){
     return(
-        <div className="Introduccion"> 
+        <div className="cont Introduccion"> 
         <Typography style={{fontSize:"bold",marginTop:"10px"}}
          className="Titulo" variant="h4" align="center">
         Introduccion
