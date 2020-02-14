@@ -17,6 +17,8 @@
 }
 
 .documentation{
+    padding-top:  25px ;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     width: 85%;
