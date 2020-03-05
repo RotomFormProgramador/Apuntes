@@ -34,12 +34,12 @@ function PrimerosPasos (){
         <Typography display="block"   variant="h5">
         Creacion de aplicacion de React
         </Typography>
-        <div className="cont-1">
+
         <Typography display="block" align="justify" variant="body1">
-        La forma mas facil de comenzar con react es creando un aplicacion de react y esto se logro con el siguiente comando en la consola
+        La forma mas facil de comenzar con react es creando una aplicacion de react y esto se logro con el siguiente comando en la consola
         </Typography>
         
-        </div>
+    
         <Hcode code={sourceC.crearAPP}/>
 
         <Typography display="block" align="justify" variant="body1">
@@ -50,10 +50,10 @@ function PrimerosPasos (){
 
         <br/>
          <Typography display="block" align="justify" variant="body1">
-         El archivo contiene tu aplicacion en App.js  que esta ubicado en src/App.js desde
+         El  archivo que  contiene   tu aplicacion es  App.js  que esta ubicado en src/App.js desde
          aqui puedes comenzar  a crear  tu proyecto. Este archivo ya contiene un componente hecho,
          puedes borrar parte de este componete pero deja el div que tiene la clase #App, ya que en este
-         div se contruye tu aplicacion.
+         div se montora  tu aplicacion.
 
          </Typography>
         <br/>
